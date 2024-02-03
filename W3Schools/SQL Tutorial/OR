@@ -1,0 +1,4 @@
+Select all records where the City column has the value 'Berlin' OR 'London'.
+SELECT * FROM City
+WHERE City = 'Berlin'
+OR City = 'London'
