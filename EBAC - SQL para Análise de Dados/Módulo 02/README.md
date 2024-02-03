@@ -4,7 +4,7 @@
 
 ### **1. Explorando os dados da tabela de clientes**
 
-#### [**1.1. Query 1**]()
+#### [**1.1. Query 1**](https://raw.githubusercontent.com/Thurz-L/OnlySQL/main/EBAC%20-%20SQL%20para%20Análise%20de%20Dados/Módulo%2002/query_1.csv)
 ```sql
 SELECT id,
 	idade,
@@ -13,7 +13,7 @@ SELECT id,
 FROM clientes;
 ```
 
-#### [**1.2. Query 2**]()
+#### [**1.2. Query 2**](https://raw.githubusercontent.com/Thurz-L/OnlySQL/main/EBAC%20-%20SQL%20para%20Análise%20de%20Dados/Módulo%2002/query_2.csv)
 ```sql
 SELECT id,
 	valor_transacoes_12m
@@ -22,7 +22,7 @@ WHERE escolaridade = 'mestrado'
 	and sexo = 'F';
 ```
 
-#### [**1.3. Query 3**]()
+#### [**1.3. Query 3**](https://raw.githubusercontent.com/Thurz-L/OnlySQL/main/EBAC%20-%20SQL%20para%20Análise%20de%20Dados/Módulo%2002/query_3.csv)
 ```sql
 SELECT sexo,
 	AVG(idade) AS "media_idade_por_sexo"
@@ -32,7 +32,7 @@ GROUP BY sexo;
 
 ### **2. Inserindo novos dados**
 
-#### [**2.1. Query 4**]()
+#### [**2.1. Query 4**](https://raw.githubusercontent.com/Thurz-L/OnlySQL/main/EBAC%20-%20SQL%20para%20Análise%20de%20Dados/Módulo%2002/query_4.csv)
 ```sql
 SELECT *
 FROM clientes;
@@ -40,7 +40,7 @@ FROM clientes;
 
 ### **3. Criando e trabalhando com partições**
 
-#### [**3.1. Query 5**]()
+#### [**3.1. Query 5**](https://raw.githubusercontent.com/Thurz-L/OnlySQL/main/EBAC%20-%20SQL%20para%20Análise%20de%20Dados/Módulo%2002/query_5.csv)
 ```sql
 CREATE EXTERNAL TABLE clientes_part(
 	id BIGINT,
@@ -73,7 +73,7 @@ from clientes_part
 where sexo = 'F';
 ```
 
-#### [**3.2. Query 6**]()
+#### [**3.2. Query 6**](https://raw.githubusercontent.com/Thurz-L/OnlySQL/main/EBAC%20-%20SQL%20para%20Análise%20de%20Dados/Módulo%2002/query_6.csv)
 ```sql
 SELECT id,
 	idade,
@@ -85,7 +85,7 @@ ORDER BY limite_credito DESC;
 
 ### **4. Adicionando colunas**
 
-#### [**4.1. Query 7**]()
+#### [**4.1. Query 7**](https://raw.githubusercontent.com/Thurz-L/OnlySQL/main/EBAC%20-%20SQL%20para%20Análise%20de%20Dados/Módulo%2002/query_7.csv)
 ```sql
 ALTER TABLE clientes
 ADD COLUMNS (estado string)
