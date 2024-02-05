@@ -19,13 +19,13 @@ STORED AS TEXTFILE
 LOCATION 's3://bucket-robertohatiro-transacoes/'
 ```
 
-#### [**2.1. Query 1**]()
+#### [**2.1. Query 1**](https://raw.githubusercontent.com/Thurz-L/OnlySQL/main/EBAC%20-%20SQL%20para%20Análise%20de%20Dados/Módulo%2003/query1.csv)
 ```sql
 SELECT *
 FROM transacoes
 ```
 
-#### [**2.2. Query 2**]()
+#### [**2.2. Query 2**](https://raw.githubusercontent.com/Thurz-L/OnlySQL/main/EBAC%20-%20SQL%20para%20Análise%20de%20Dados/Módulo%2003/query2.csv)
 ```sql
 SELECT id_cliente,
 	valor,
@@ -33,7 +33,7 @@ SELECT id_cliente,
 FROM transacoes;
 ```
 
-#### [**2.3. Query 3**]()
+#### [**2.3. Query 3**](https://raw.githubusercontent.com/Thurz-L/OnlySQL/main/EBAC%20-%20SQL%20para%20Análise%20de%20Dados/Módulo%2003/query3.csv)
 ```sql
 SELECT DISTINCT id_loja AS nome_loja
 FROM transacoes;
@@ -41,7 +41,7 @@ FROM transacoes;
 
 ### **3. Ordenando e limitando dados**
 
-#### [**3.1. Query 4**]()
+#### [**3.1. Query 4**](https://raw.githubusercontent.com/Thurz-L/OnlySQL/main/EBAC%20-%20SQL%20para%20Análise%20de%20Dados/Módulo%2003/query4.csv)
 ```sql
 SELECT id_cliente,
 	valor
