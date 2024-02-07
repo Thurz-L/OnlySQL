@@ -21,7 +21,7 @@ LOCATION 's3://bucket-transacoes/'
 
 ### **2. Selecionando dados**
 
-#### [**2.1. Query 1**]()
+#### [**2.1. Query 1**](https://github.com/Thurz-L/OnlySQL/blob/main/EBAC%20-%20SQL%20para%20Análise%20de%20Dados/Módulo%2004/query1.csv)
 ```sql
 SELECT *
 FROM transacoes
@@ -29,7 +29,7 @@ WHERE valor > 30
 	AND id_loja = 'magalu';
 ```
 
-#### [**2.2. Query 2**]()
+#### [**2.2. Query 2**](https://github.com/Thurz-L/OnlySQL/blob/main/EBAC%20-%20SQL%20para%20Análise%20de%20Dados/Módulo%2004/query2.csv)
 ```sql
 SELECT *
 FROM transacoes
@@ -37,7 +37,7 @@ WHERE valor > 30
 	OR id_loja = 'magalu';
 ```
 
-#### [**2.3. Query 3**]()
+#### [**2.3. Query 3**](https://github.com/Thurz-L/OnlySQL/blob/main/EBAC%20-%20SQL%20para%20Análise%20de%20Dados/Módulo%2004/query3.csv)
 ```sql
 SELECT *
 FROM transacoes
@@ -45,7 +45,7 @@ WHERE id_loja IN ('magalu', 'subway')
 	AND valor > 10;
 ```
 
-#### [**2.4. Query 4**]()
+#### [**2.4. Query 4**](https://github.com/Thurz-L/OnlySQL/blob/main/EBAC%20-%20SQL%20para%20Análise%20de%20Dados/Módulo%2004/query4.csv)
 ```sql
 SELECT *
 FROM transacoes
@@ -54,14 +54,14 @@ WHERE valor BETWEEN 60.0 AND 1000.0;
 
 ### **3. Filtro like e wildcards**
 
-#### [**3.1. Query 5**]()
+#### [**3.1. Query 5**](https://github.com/Thurz-L/OnlySQL/blob/main/EBAC%20-%20SQL%20para%20Análise%20de%20Dados/Módulo%2004/query5.csv)
 ```sql
 SELECT *
 FROM transacoes
 WHERE id_loja LIKE 'mag%';
 ```
 
-#### [**3.2. Query 6**]()
+#### [**3.2. Query 6**](https://github.com/Thurz-L/OnlySQL/blob/main/EBAC%20-%20SQL%20para%20Análise%20de%20Dados/Módulo%2004/query6.csv)
 ```sql
 SELECT *
 FROM transacoes
@@ -70,7 +70,7 @@ WHERE id_loja LIKE '%sh%';
 
 ### **4. Seleção condicional**
 
-#### [**4.1. Query 7**]()
+#### [**4.1. Query 7**](https://github.com/Thurz-L/OnlySQL/blob/main/EBAC%20-%20SQL%20para%20Análise%20de%20Dados/Módulo%2004/query7.csv)
 ```sql
 SELECT id_cliente,
 	id_loja,
